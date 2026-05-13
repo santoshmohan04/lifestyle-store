@@ -125,3 +125,91 @@ If you want a balanced upgrade path, start with:
 4. **Prompt 5** and **Prompt 6** for UI/UX modernization
 5. **Prompt 8** for cart/order redesign
 6. **Prompt 15** for the final execution roadmap
+
+---
+
+## Feature brainstorming (what to implement next)
+
+### Core commerce features
+
+- category and brand filters
+- search with sort options (price, popularity, newest)
+- product detail page with gallery and size/variant selection
+- wishlist and save-for-later
+- coupon and promo code support
+- stock-aware cart and checkout validation
+- delivery address book
+- order tracking timeline
+- downloadable invoice
+
+### User account features
+
+- profile management
+- order history and reorder
+- product reviews and ratings
+- notification preferences
+- email verification and password reset flow
+
+### Admin and operations features
+
+- product CRUD with image upload
+- inventory management with low-stock alerts
+- order management dashboard
+- coupon campaign management
+- basic sales and conversion reports
+
+### Growth and engagement features
+
+- related products / frequently bought together
+- recently viewed products
+- homepage personalization blocks
+- abandoned cart reminders
+- referral and loyalty points program
+
+### Reliability and security features
+
+- robust audit logging for admin actions
+- role-based access control (admin/staff/customer)
+- rate limiting on auth/cart endpoints
+- backup and recovery workflow
+- observability dashboard (errors, latency, traffic)
+
+---
+
+## Feature ideation prompts
+
+### Feature Prompt 1 - Prioritized feature shortlist
+Brainstorm and prioritize the top 20 features for this Lifestyle Store app based on business impact, user value, implementation complexity, and dependency risk. Group them into now/next/later buckets and explain the reasoning for each group.
+
+### Feature Prompt 2 - MVP vs Phase 2 split
+Create a phased feature strategy for this app. Define what should be in MVP, what should be in Phase 2, and what should be postponed. Keep the MVP focused on catalog, cart, checkout, and trust-building essentials.
+
+### Feature Prompt 3 - Product discovery features
+Suggest a complete product discovery feature set for this app, including category filters, search, sorting, recommendations, and recently viewed products. Provide a rollout sequence that starts with highest-impact low-complexity items.
+
+### Feature Prompt 4 - Conversion optimization features
+Propose features that improve conversion rate for this Lifestyle Store app: trust signals, CTA placement, cart nudges, promo strategy, checkout simplification, and guest checkout options. Prioritize by expected impact.
+
+### Feature Prompt 5 - Retention and engagement features
+Design a retention-focused roadmap with wishlist, loyalty points, referral program, reorder flow, personalized offers, and reminder notifications. Keep the roadmap realistic for a small team.
+
+### Feature Prompt 6 - Admin capability roadmap
+Create a practical admin feature roadmap covering product management, inventory, order operations, returns handling, coupons, and reporting. Recommend the minimum admin capabilities needed for launch and the enhancements for later phases.
+
+### Feature Prompt 7 - Reviews and social proof
+Suggest how to add ratings, reviews, verified purchase badges, and user-generated content safely. Include moderation workflow and abuse prevention considerations.
+
+### Feature Prompt 8 - Checkout and post-purchase features
+Create a feature plan for checkout and post-purchase experience: address management, shipping options, order confirmation UX, tracking, invoices, cancellations, and return requests.
+
+### Feature Prompt 9 - Mobile-first feature improvements
+Propose mobile-first features for this app, including fast navigation, compact filters, sticky add-to-cart, autofill-friendly forms, and lightweight pages for low bandwidth users.
+
+### Feature Prompt 10 - Security and trust features
+Brainstorm user-facing and backend trust features for this app, including secure auth, anti-fraud checks, role-based access, audit logs, and privacy controls. Prioritize foundational controls first.
+
+### Feature Prompt 11 - Analytics and experimentation features
+Recommend analytics features and experiment loops for this store: event tracking, funnel metrics, A/B testing opportunities, campaign attribution, and KPI dashboards for product and growth teams.
+
+### Feature Prompt 12 - Final feature execution roadmap
+Combine all feature brainstorming outputs into one prioritized roadmap with clear phases, dependencies, and release candidates. Highlight quick wins, must-have features, and what should be intentionally deferred.
